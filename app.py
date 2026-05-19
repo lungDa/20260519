@@ -4,7 +4,7 @@ with st.sidebar:
     st.write("###  行事曆群組")
     st.radio("選擇群組", ["工作", "家庭"])
 
-col_left, col_center, col_right = st.columns([1, 3], gap="large")
+col_left, col_right = st.columns([1, 3], gap="large")
 
 with col_left: 
     st.write("###  新增區") 
