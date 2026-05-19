@@ -13,7 +13,7 @@ with st.container(border=True):
     st.write(" 標題：開學典禮") 
     st.write(" 時間：09:00")
 
-with col_center: 
+with col_right: 
     st.write("###  看板區") 
     st.info("主要行程訊息放中間")
 
