@@ -18,17 +18,13 @@ with col_right:
     st.info("主要行程訊息放中間")
 
 
-tab1, tab2, tab3 = st.tabs(["首頁", "圖表", "設定"])
+tab1, tab2 = st.tabs(["本月設定", "已封存行程"])
 with tab1: 
     st.header("首頁") 
     st.write("這是首頁內容")
 with tab2: 
     st.header("圖表") 
     st.line_chart([1, 5, 2, 6, 2, 1])
-with tab3: 
-    st.header("設定") 
-    name = st.text_input("你的名字") 
-    st.write(f"Hello {name}")
 
 with st.expander("查看進階提醒參數設定"):
     st.write("這裡是發信伺服器的底層設定...")
