@@ -16,11 +16,7 @@ with st.container(border=True):
 with col_center: 
     st.write("###  看板區") 
     st.info("主要行程訊息放中間")
-   
 
-with col_right: 
-    st.write("###  設定區") 
-    st.button("控制項放右邊")
 
 tab1, tab2, tab3 = st.tabs(["首頁", "圖表", "設定"])
 with tab1: 
